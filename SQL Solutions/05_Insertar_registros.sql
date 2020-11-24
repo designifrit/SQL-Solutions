@@ -35,10 +35,10 @@ SELECT * FROM Historia
 
 -- Insertar registros en tabla HistoriaPaciente
 
-INSERT INTO HistoriaPaciente VALUES(2, 1, 3)
-INSERT INTO HistoriaPaciente VALUES(4, 2, 1)
-INSERT INTO HistoriaPaciente VALUES(1, 4, 2)
-INSERT INTO HistoriaPaciente VALUES(3, 3, 4)
+INSERT INTO HistoriaPaciente VALUES(5, 5, 5)
+INSERT INTO HistoriaPaciente VALUES(6, 6, 6)
+INSERT INTO HistoriaPaciente VALUES(7, 7, 7)
+INSERT INTO HistoriaPaciente VALUES(8, 8, 8)
 
 SELECT * FROM HistoriaPaciente
 
@@ -75,20 +75,20 @@ SELECT * FROM Paciente
 
 -- Insertar registros en tabla Pago
 
-INSERT INTO Pago VALUES(2, '20200412', 120900, 1, 'Cheque')
-INSERT INTO Pago VALUES(1, '20201015', 250300, 3, 'Tarjeta débito')
-INSERT INTO Pago VALUES(4, '20200730', 90500, 2, 'Tarjeta crédito')
-INSERT INTO Pago VALUES(3, '20200422', 45000, 4, 'En efectivo')
+INSERT INTO Pago VALUES(1, '20200412', 120900, 1, 'Cheque')
+INSERT INTO Pago VALUES(2, '20201015', 250300, 3, 'Tarjeta débito')
+INSERT INTO Pago VALUES(3, '20200730', 90500, 2, 'Tarjeta crédito')
+INSERT INTO Pago VALUES(3, '20200422', 45000, 0, 'En efectivo')
 
 SELECT * FROM Pago
 
 
 -- Insertar registros en tabla PagoPaciente
 
-INSERT INTO PagoPaciente VALUES(4, 2 , 1)
-INSERT INTO PagoPaciente VALUES(2, 3, 3)
-INSERT INTO PagoPaciente VALUES(1, 4, 2)
-INSERT INTO PagoPaciente VALUES(3, 1, 4)
+INSERT INTO PagoPaciente VALUES(5, 5, 5)
+INSERT INTO PagoPaciente VALUES(6, 6, 6)
+INSERT INTO PagoPaciente VALUES(7, 7, 7)
+INSERT INTO PagoPaciente VALUES(1, 5, 5)
 
 SELECT * FROM PagoPaciente
 
@@ -125,10 +125,10 @@ SELECT * FROM Estado
 
 -- Insertar registros en tabla TurnoPaciente
 
-INSERT INTO TurnoPaciente VALUES(1, 4, 3)
-INSERT INTO TurnoPaciente VALUES(2, 2, 1)
-INSERT INTO TurnoPaciente VALUES(3, 1, 4)
-INSERT INTO TurnoPaciente VALUES(4, 3, 2)
+INSERT INTO TurnoPaciente VALUES(5, 5, 5)
+INSERT INTO TurnoPaciente VALUES(6, 6, 6)
+INSERT INTO TurnoPaciente VALUES(7, 7, 7)
+INSERT INTO TurnoPaciente VALUES(8, 8, 8)
 
 SELECT * FROM TurnoPaciente
 

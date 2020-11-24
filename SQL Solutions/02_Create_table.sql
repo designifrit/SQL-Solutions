@@ -78,7 +78,7 @@ CREATE TABLE Paciente(
 	apellido varchar(50) null,
 	fechaNacimiento date null,
 	domicilio varchar(50) null,
-	idPais char(3) null,
+	idPais char(3) not null,
 	telefono varchar(20) null,
 	email varchar(30) null,
 	observaciones varchar(1000) null,
@@ -143,11 +143,11 @@ SELECT * FROM Turno
 -- Crear tabla TurnoEstado
 
 CREATE TABLE Estado(
-	idEstado int not null,
+	idEstado smallint not null,
 	descripcion varchar(50) null
 	CONSTRAINT pk_Estado PRIMARY KEY(idEstado)
 )
-SELECT * FROM TurnoEstado
+SELECT * FROM Estado
 
 
 -- Crear tabla TurnoPaciente

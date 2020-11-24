@@ -3,7 +3,19 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="CERBERUS:CERBERUS\Alejandro">
+        <ConnectionNode Name="ALEJANDROOROZCO\SQLEXPRESS:MIC\aorozco">
+          <Created>2020-11-24T14:21:25.6551856-05:00</Created>
+          <Type>SQL</Type>
+          <Server>ALEJANDROOROZCO\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="CERBERUS:MIC\aorozco">
           <Created>2020-11-20T13:20:32.8223836-05:00</Created>
           <Type>SQL</Type>
           <Server>CERBERUS</Server>
@@ -20,172 +32,172 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="01_Data_base.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>01_Data_base.sql</FullPath>
         </FileNode>
         <FileNode Name="02_Create_table.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>02_Create_table.sql</FullPath>
         </FileNode>
         <FileNode Name="03_Create_user_data_types.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>03_Create_user_data_types.sql</FullPath>
         </FileNode>
         <FileNode Name="04_Create_foreign_key.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>04_Create_foreign_key.sql</FullPath>
         </FileNode>
         <FileNode Name="05_Insertar_registros.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>05_Insertar_registros.sql</FullPath>
         </FileNode>
         <FileNode Name="06_Reset_identity.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>06_Reset_identity.sql</FullPath>
         </FileNode>
         <FileNode Name="07_Command_Select.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>07_Command_Select.sql</FullPath>
         </FileNode>
         <FileNode Name="08_Command_Insert.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>08_Command_Insert.sql</FullPath>
         </FileNode>
         <FileNode Name="09_Command_Update.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>09_Command_Update.sql</FullPath>
         </FileNode>
         <FileNode Name="10_Command_Delete.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>10_Command_Delete.sql</FullPath>
         </FileNode>
         <FileNode Name="11_Clause_Where.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>11_Clause_Where.sql</FullPath>
         </FileNode>
         <FileNode Name="12_Clause_Top.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>12_Clause_Top.sql</FullPath>
         </FileNode>
         <FileNode Name="13_Clause_Order_by.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>13_Clause_Order_by.sql</FullPath>
         </FileNode>
         <FileNode Name="14_Clause_Distinct.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>14_Clause_Distinct.sql</FullPath>
         </FileNode>
         <FileNode Name="15_Clause_Group_by.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>15_Clause_Group_by.sql</FullPath>
         </FileNode>
         <FileNode Name="16_Aggregate_function_Max_and_Min.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>16_Aggregate_function_Max_and_Min.sql</FullPath>
         </FileNode>
         <FileNode Name="17_Aggregate_function_Sum.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>17_Aggregate_function_Sum.sql</FullPath>
         </FileNode>
-        <FileNode Name="17_Aggregate_function_Agv.sql">
+        <FileNode Name="18_Aggregate_function_Agv.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>17_Aggregate_function_Agv.sql</FullPath>
+          <FullPath>18_Aggregate_function_Agv.sql</FullPath>
         </FileNode>
-        <FileNode Name="18_Aggregate_function_Count.sql">
+        <FileNode Name="19_Aggregate_function_Count.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>18_Aggregate_function_Count.sql</FullPath>
+          <FullPath>19_Aggregate_function_Count.sql</FullPath>
         </FileNode>
-        <FileNode Name="19_Aggregate_function_Having.sql">
+        <FileNode Name="20_Aggregate_function_Having.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>19_Aggregate_function_Having.sql</FullPath>
+          <FullPath>20_Aggregate_function_Having.sql</FullPath>
         </FileNode>
-        <FileNode Name="20_Logic_operator_And.sql">
+        <FileNode Name="21_Logic_operator_And.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>20_Logic_operator_And.sql</FullPath>
+          <FullPath>21_Logic_operator_And.sql</FullPath>
         </FileNode>
-        <FileNode Name="21_Logic_operator_Or.sql">
+        <FileNode Name="22_Logic_operator_Or.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>21_Logic_operator_Or.sql</FullPath>
+          <FullPath>22_Logic_operator_Or.sql</FullPath>
         </FileNode>
-        <FileNode Name="22_Logic_operator_In.sql">
+        <FileNode Name="23_Logic_operator_In.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>22_Logic_operator_In.sql</FullPath>
+          <FullPath>23_Logic_operator_In.sql</FullPath>
         </FileNode>
-        <FileNode Name="23_Logic_operator_Like.sql">
+        <FileNode Name="24_Logic_operator_Like.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>23_Logic_operator_Like.sql</FullPath>
+          <FullPath>24_Logic_operator_Like.sql</FullPath>
         </FileNode>
-        <FileNode Name="24_Logic_operator_Not.sql">
+        <FileNode Name="25_Logic_operator_Not.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>24_Logic_operator_Not.sql</FullPath>
+          <FullPath>25_Logic_operator_Not.sql</FullPath>
         </FileNode>
-        <FileNode Name="25_Logic_operator_Between.sql">
+        <FileNode Name="26_Logic_operator_Between.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>25_Logic_operator_Between.sql</FullPath>
+          <FullPath>26_Logic_operator_Between.sql</FullPath>
         </FileNode>
-        <FileNode Name="26_Logic_operator_Scope.sql">
+        <FileNode Name="27_Logic_operator_Scope.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>26_Logic_operator_Scope.sql</FullPath>
+          <FullPath>27_Logic_operator_Scope.sql</FullPath>
         </FileNode>
-        <FileNode Name="26_Stored_procedures.sql">
+        <FileNode Name="28_Stored_procedures.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>26_Stored_procedures.sql</FullPath>
+          <FullPath>28_Stored_procedures.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
