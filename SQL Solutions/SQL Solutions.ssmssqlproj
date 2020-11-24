@@ -49,6 +49,72 @@
           <AssociatedConnUserName />
           <FullPath>05_Foreign_key.sql</FullPath>
         </FileNode>
+        <FileNode Name="17_Aggregate_function_Agv.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17_Aggregate_function_Agv.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18_Aggregate_function_Count.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>18_Aggregate_function_Count.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19_Aggregate_function_Having.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19_Aggregate_function_Having.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20_Logic_operator_And.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20_Logic_operator_And.sql</FullPath>
+        </FileNode>
+        <FileNode Name="21_Logic_operator_Or.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>21_Logic_operator_Or.sql</FullPath>
+        </FileNode>
+        <FileNode Name="22_Logic_operator_In.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>22_Logic_operator_In.sql</FullPath>
+        </FileNode>
+        <FileNode Name="23_Logic_operator_Like.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>23_Logic_operator_Like.sql</FullPath>
+        </FileNode>
+        <FileNode Name="24_Logic_operator_Not.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>24_Logic_operator_Not.sql</FullPath>
+        </FileNode>
+        <FileNode Name="25_Logic_operator_Between.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>25_Logic_operator_Between.sql</FullPath>
+        </FileNode>
+        <FileNode Name="26_Logic_operator_Scope.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>26_Logic_operator_Scope.sql</FullPath>
+        </FileNode>
+        <FileNode Name="26_Stored_procedures.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>26_Stored_procedures.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
