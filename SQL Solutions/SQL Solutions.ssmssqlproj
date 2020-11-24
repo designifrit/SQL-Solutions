@@ -3,10 +3,10 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="ALEJANDROOROZCO\SQLEXPRESS:MIC\aorozco">
-          <Created>2020-11-19T13:24:26.8600982-05:00</Created>
+        <ConnectionNode Name="CERBERUS:CERBERUS\Alejandro">
+          <Created>2020-11-20T13:20:32.8223836-05:00</Created>
           <Type>SQL</Type>
-          <Server>ALEJANDROOROZCO\SQLEXPRESS</Server>
+          <Server>CERBERUS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
           <InitialDB />
@@ -20,34 +20,106 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="01_Data_base.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>01_Data_base.sql</FullPath>
         </FileNode>
         <FileNode Name="02_Create_table.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>02_Create_table.sql</FullPath>
         </FileNode>
-        <FileNode Name="03_Insertar_registros.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+        <FileNode Name="03_Create_user_data_types.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>03_Insertar_registros.sql</FullPath>
+          <FullPath>03_Create_user_data_types.sql</FullPath>
         </FileNode>
-        <FileNode Name="04_Tipo_datos_definido_usuario.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+        <FileNode Name="04_Create_foreign_key.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>04_Tipo_datos_definido_usuario.sql</FullPath>
+          <FullPath>04_Create_foreign_key.sql</FullPath>
         </FileNode>
-        <FileNode Name="05_Foreign_key.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALEJANDROOROZCO\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>ALEJANDROOROZCO\SQLEXPRESS</AssociatedConnSrvName>
+        <FileNode Name="05_Insertar_registros.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>05_Foreign_key.sql</FullPath>
+          <FullPath>05_Insertar_registros.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_Reset_identity.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06_Reset_identity.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07_Command_Select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07_Command_Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08_Command_Insert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08_Command_Insert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09_Command_Update.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09_Command_Update.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10_Command_Delete.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10_Command_Delete.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_Clause_Where.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11_Clause_Where.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_Clause_Top.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12_Clause_Top.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_Clause_Order_by.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13_Clause_Order_by.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_Clause_Distinct.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14_Clause_Distinct.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_Clause_Group_by.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15_Clause_Group_by.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16_Aggregate_function_Max_and_Min.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16_Aggregate_function_Max_and_Min.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17_Aggregate_function_Sum.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CERBERUS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CERBERUS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17_Aggregate_function_Sum.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
