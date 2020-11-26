@@ -35,10 +35,10 @@ SELECT * FROM Historia
 
 -- Insertar registros en tabla HistoriaPaciente
 
-INSERT INTO HistoriaPaciente VALUES(5, 5, 5)
-INSERT INTO HistoriaPaciente VALUES(6, 6, 6)
-INSERT INTO HistoriaPaciente VALUES(7, 7, 7)
-INSERT INTO HistoriaPaciente VALUES(8, 8, 8)
+INSERT INTO HistoriaPaciente VALUES(1, 1, 1)
+INSERT INTO HistoriaPaciente VALUES(2, 2, 2)
+INSERT INTO HistoriaPaciente VALUES(3, 3, 3)
+INSERT INTO HistoriaPaciente VALUES(4, 4, 4)
 
 SELECT * FROM HistoriaPaciente
 
@@ -78,17 +78,17 @@ SELECT * FROM Paciente
 INSERT INTO Pago VALUES(1, '20200412', 120900, 1, 'Cheque')
 INSERT INTO Pago VALUES(2, '20201015', 250300, 3, 'Tarjeta débito')
 INSERT INTO Pago VALUES(3, '20200730', 90500, 2, 'Tarjeta crédito')
-INSERT INTO Pago VALUES(3, '20200422', 45000, 0, 'En efectivo')
+INSERT INTO Pago VALUES(4, '20200422', 45000, 4, 'En efectivo')
 
 SELECT * FROM Pago
 
 
 -- Insertar registros en tabla PagoPaciente
 
-INSERT INTO PagoPaciente VALUES(5, 5, 5)
-INSERT INTO PagoPaciente VALUES(6, 6, 6)
-INSERT INTO PagoPaciente VALUES(7, 7, 7)
-INSERT INTO PagoPaciente VALUES(1, 5, 5)
+INSERT INTO PagoPaciente VALUES(1, 1, 1)
+INSERT INTO PagoPaciente VALUES(2, 2, 2)
+INSERT INTO PagoPaciente VALUES(3, 3, 3)
+INSERT INTO PagoPaciente VALUES(4, 4, 4)
 
 SELECT * FROM PagoPaciente
 
@@ -105,30 +105,30 @@ SELECT * FROM Pais
 
 -- Insertar registros en tabla Turno
 
-insert into Turno values ( '20200302 13:00', 0 , '')
-insert into Turno values ( '20200303 14:00', 0 , '')
-insert into Turno values ( '20200303 15:30', 1 , 'El paciente ha sido atendido')
-insert into Turno values ( '20200305 18:00', 2 , 'El paciente llamó para cancelar el turno')
+insert into Turno values ( '20200302 13:00', 1 , '')
+insert into Turno values ( '20200303 14:00', 2 , '')
+insert into Turno values ( '20200303 15:30', 3 , 'El paciente ha sido atendido')
+insert into Turno values ( '20200305 18:00', 4 , 'El paciente llamó para cancelar el turno')
 
 SELECT * FROM Turno
 
 
 -- Insertar registros en tabla TurnoEstado
 
-INSERT INTO Estado VALUES(0, 'Pendiente')
-INSERT INTO Estado VALUES(1, 'Realizado')
-INSERT INTO Estado VALUES(2, 'Cancelado')
-INSERT INTO Estado VALUES(3, 'Anulado')
+INSERT INTO Estado VALUES(1, 'Pendiente')
+INSERT INTO Estado VALUES(2, 'Realizado')
+INSERT INTO Estado VALUES(3, 'Cancelado')
+INSERT INTO Estado VALUES(4, 'Anulado')
 
 SELECT * FROM Estado
 
 
 -- Insertar registros en tabla TurnoPaciente
 
-INSERT INTO TurnoPaciente VALUES(5, 5, 5)
-INSERT INTO TurnoPaciente VALUES(6, 6, 6)
-INSERT INTO TurnoPaciente VALUES(7, 7, 7)
-INSERT INTO TurnoPaciente VALUES(8, 8, 8)
+INSERT INTO TurnoPaciente VALUES(1, 1, 1)
+INSERT INTO TurnoPaciente VALUES(2, 2, 2)
+INSERT INTO TurnoPaciente VALUES(3, 3, 3)
+INSERT INTO TurnoPaciente VALUES(4, 4, 4)
 
 SELECT * FROM TurnoPaciente
 

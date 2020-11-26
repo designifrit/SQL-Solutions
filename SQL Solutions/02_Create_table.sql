@@ -133,7 +133,7 @@ SELECT * FROM Pais
 CREATE TABLE Turno(
 	idTurno int identity(1,1) not null,
 	fechaTurno datetime null,
-	idEstado int not null,
+	idEstado tinyint not null,
 	observacion varchar(100)
 	CONSTRAINT pk_Turno PRIMARY KEY(idTurno)
 )
@@ -143,7 +143,7 @@ SELECT * FROM Turno
 -- Crear tabla TurnoEstado
 
 CREATE TABLE Estado(
-	idEstado smallint not null,
+	idEstado tinyint not null,
 	descripcion varchar(50) null
 	CONSTRAINT pk_Estado PRIMARY KEY(idEstado)
 )

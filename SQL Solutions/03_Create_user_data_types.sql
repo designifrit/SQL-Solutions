@@ -9,7 +9,7 @@ en la tabla como un valor preestablecido, para evitar que otro usuario modifique
 /* Ruta = programmability > Types > User-Defined Data types*/
 
 CREATE TYPE concepto FROM tinyint not null
-CREATE TYPE estado FROM smallint not null
+CREATE TYPE estado FROM tinyint not null
 CREATE TYPE historia FROM int not null
 CREATE TYPE medico FROM int not null
 CREATE TYPE observacion FROM varchar(1000)
