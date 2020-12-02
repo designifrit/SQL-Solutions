@@ -7,4 +7,4 @@ INSERT INTO Paciente VALUES ('', 'Alejandro', 'Orozco', '17-03-1986', 'Cr 77 # 7
 SELECT * FROM Paciente
 
 -- Verifica IDENTITTY y establece el indexado nuevamente desde 0
-DBCC CHECKIDENT (Paciente, RESEED, 0)
+DBCC CHECKIDENT (Pago, RESEED, 0)

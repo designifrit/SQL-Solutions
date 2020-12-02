@@ -88,7 +88,7 @@ SELECT * FROM Pago
 INSERT INTO PagoPaciente VALUES(1, 1, 1)
 INSERT INTO PagoPaciente VALUES(2, 2, 2)
 INSERT INTO PagoPaciente VALUES(3, 3, 3)
-INSERT INTO PagoPaciente VALUES(4, 4, 4)
+INSERT INTO PagoPaciente VALUES(6, 4, 4)
 
 SELECT * FROM PagoPaciente
 
